@@ -11,8 +11,8 @@ while True:
     plt.style.use('classic')
     fig,ax = plt.subplots(figsize=(15,9))
     point_numbers = range(rw.num_points)
-    #ax.scatter(rw.x_vals, rw.y_vals, s=1, c=point_numbers, cmap=plt.cm.Blues, edgecolors='none')
-    ax.plot(rw.x_vals, rw.y_vals, linewidth=1 )
+    ax.scatter(rw.x_vals, rw.y_vals, s=1, c=point_numbers, cmap=plt.cm.Blues, edgecolors='none')
+    #ax.plot(rw.x_vals, rw.y_vals, linewidth=1 )
 
     # Emphasize the first and last points.
     ax.scatter(0,0, c='green', edgecolors='none', s=100)

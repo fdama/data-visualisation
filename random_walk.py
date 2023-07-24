@@ -1,7 +1,5 @@
 from random import choice
 
-from matplotlib.pyplot import step
-
 class RandomWalk:
     """A class to generate random walks."""
 
